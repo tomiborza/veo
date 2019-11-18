@@ -1,4 +1,4 @@
-package com.example.tomi.veorica;
+package com.example.tomi.veo;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.example.tomi.veorica", appContext.getPackageName());
+        assertEquals("com.example.tomi.veo", appContext.getPackageName());
     }
 }

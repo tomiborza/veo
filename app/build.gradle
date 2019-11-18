@@ -3,7 +3,7 @@ apply plugin: 'com.android.application'
 android {
     compileSdkVersion 27
     defaultConfig {
-        applicationId "com.example.tomi.veorica"
+        applicationId "com.example.tomi.veo"
         minSdkVersion 27
         targetSdkVersion 27
         versionCode 1

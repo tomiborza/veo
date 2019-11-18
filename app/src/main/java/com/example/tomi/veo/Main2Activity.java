@@ -1,24 +1,24 @@
-package com.example.tomi.veorica;
+package com.example.tomi.veo;
 
 import android.media.MediaPlayer;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-public class MainActivity extends AppCompatActivity{
+public class Main2Activity extends AppCompatActivity {
 
     @Override
-    protected void onCreate(Bundle savedInstanceState){
+    protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_main2);
         final MediaPlayer autisti = MediaPlayer.create(this, R.raw.autisti);
-        final MediaPlayer frica = MediaPlayer.create(this,R.raw.frica);
-        final MediaPlayer imagine = MediaPlayer.create(this,R.raw.imagine);
-        final MediaPlayer democratia = MediaPlayer.create(this,R.raw.democatie);
-        final MediaPlayer preventie = MediaPlayer.create(this,R.raw.preventie);
-        final MediaPlayer anteprescolar = MediaPlayer.create(this,R.raw.anteprescolar);
-        final MediaPlayer boing = MediaPlayer.create(this,R.raw.boing);
-        final MediaPlayer calemitati = MediaPlayer.create(this,R.raw.calemitati);
+        final MediaPlayer frica = MediaPlayer.create(this, R.raw.frica);
+        final MediaPlayer imagine = MediaPlayer.create(this, R.raw.imagine);
+        final MediaPlayer democratia = MediaPlayer.create(this, R.raw.democatie);
+        final MediaPlayer preventie = MediaPlayer.create(this, R.raw.preventie);
+        final MediaPlayer anteprescolar = MediaPlayer.create(this, R.raw.anteprescolar);
+        final MediaPlayer boing = MediaPlayer.create(this, R.raw.boing);
+        final MediaPlayer calemitati = MediaPlayer.create(this, R.raw.calemitati);
 
         Button playimagine = (Button) this.findViewById(R.id.imagine);
         Button playdemocratia = (Button) this.findViewById(R.id.democarie);

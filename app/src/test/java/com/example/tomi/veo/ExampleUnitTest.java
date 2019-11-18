@@ -1,4 +1,4 @@
-package com.example.tomi.veorica;
+package com.example.tomi.veo;
 
 import org.junit.Test;
 

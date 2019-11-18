@@ -1,13 +1,3 @@
 <resources>
-    <string name="app_name"></string>
-    <string name="democratia">democratia</string>
-    <string name="autisti">autisti</string>
-    <string name="imagine">imagine</string>
-    <string name="calamitati">calamitati</string>
-    <string name="anteprescolar">anteprescolar</string>
-    <string name="boing">boing</string>
-    <string name="preventie">preventie</string>
-    <string name="frica">frica</string>
-    <string name="button">Button</string>
-    <string name="todo">TODO</string>
+    <string name="app_name">veo</string>
 </resources>
